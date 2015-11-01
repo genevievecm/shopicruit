@@ -18,7 +18,7 @@ request.onload = function() {
   		var variants = data.products[p].variants;
 
 		for (var v in variants) {
-			x
+			
 			// Get all lamps
 			getProductPrices('Lamp', lampPrices);
 
