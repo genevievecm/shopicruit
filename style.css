@@ -4,11 +4,13 @@ body {
   width: 100%;
   font-family: "Open Sans", sans-serif; }
 
+.results {
+  position: relative;
+  z-index: 2; }
+
 .all-the-things {
-  background-image: url("img/all-the-things.png");
-  background-repeat: no-repeat;
-  height: 480px;
-  width: 640px;
   position: absolute;
+  z-index: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  width: 60%; }

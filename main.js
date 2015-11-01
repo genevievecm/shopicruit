@@ -43,6 +43,7 @@ request.onload = function() {
 
 			var price = parseFloat(variants[v].price);
 			array.push(price);
+			console.log(variants[v].price);
 		}            
 	}
 
