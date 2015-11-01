@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans", sans-serif; }
+
+.all-the-things {
+  background-image: url("img/all-the-things.png");
+  background-repeat: no-repeat;
+  height: 480px;
+  width: 640px;
+  position: absolute;
+  right: 0;
+  bottom: 0; }

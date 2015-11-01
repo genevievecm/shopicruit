@@ -1,0 +1,21 @@
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+// Font Variables 
+$open-sans: 'Open Sans', sans-serif;
+
+body {
+	height:100%;
+	width: 100%;
+	font-family: $open-sans;
+}
+
+.all-the-things {
+	background-image: url('img/all-the-things.png');
+	background-repeat: no-repeat;
+	height: 480px;
+	width: 640px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
